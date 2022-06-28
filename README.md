@@ -1,4 +1,4 @@
-[<img src="https://s3.amazonaws.com/usdphosting.accusoft-ontask/wp-content/uploads/Ontask-API-Logo-2.png.webp" width="600"/>](https://s3.amazonaws.com/usdphosting.accusoft-ontask/wp-content/uploads/Ontask-API-Logo-2.png.webp)
+[<img src="https://s3.amazonaws.com/usdphosting.accusoft-ontask/wp-content/uploads/Ontask-API-Logo-2.png.webp" width="600"/>](https://www.ontask.io/solutions/ontask-api/)
 
 # OnTask eSignature API Python Sample
 
