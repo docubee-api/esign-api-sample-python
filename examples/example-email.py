@@ -29,7 +29,9 @@ print('\nUploaded sample file and received a documentId of ' + documentid)
 url = 'https://app.ontask.io/api/v2/signatures'
 
 requestBody = {
-                "documents": [ { "documentId": documentid } ] ,
+                "documents": [
+                    { "documentId": documentid }
+                ],
                 "testMode": True,
                 "signers": [
                     {
