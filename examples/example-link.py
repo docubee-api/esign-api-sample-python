@@ -1,5 +1,5 @@
-# Get your free API Key at: https://www.ontask.io/solutions/ontask-api/
-# Full OnTask API Documentation: https://docs.ontask.io/#overview
+# Get your free API Key at: https://www.docubee.com/products/integrate/
+# Full Docubee API Documentation: https://docs.docubee.app/#overview
 
 import requests
 import json
@@ -10,8 +10,8 @@ emailFinalized = 'completed@example.com'
 print('\n##### Example Starting #####')
 
 # Upload the file and get a documentid to pass to create a signature endpoint
-# https://docs.ontask.io/#upload
-url = "https://app.ontask.io/api/v2/documents"
+# https://docs.docubee.app/#upload
+url = "https://docubee.app/api/v2/documents"
 data = open('sample-files/sample.pdf', 'rb').read()
 
 requestHeadersDocument = {
@@ -25,8 +25,8 @@ documentid = response.json()['documentId']
 print('\nUploaded sample file and received a documentId of ' + documentid)
 
 # Call signature to and create and start signature process
-# https://docs.ontask.io/#signature-api
-url = 'https://app.ontask.io/api/v2/signatures'
+# https://docs.docubee.app/#signature-api
+url = 'https://docubee.app/api/v2/signatures'
 
 requestBody = {
                 "documents": [ { "documentId": documentid } ] ,
